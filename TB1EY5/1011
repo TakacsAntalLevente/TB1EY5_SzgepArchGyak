@@ -1,0 +1,66 @@
+-rw-rw-r-- 1 robert ruby 241 szept 26 2023 README.md
+
+1. Ki a tulajdonosa a README.md fájlnak?
+robert
+
+2. Melyik csoport a tulajdonosa a README.md fájlnak?
+ruby 241
+
+3. Igaz vagy hamis a következő állítás? “A README.md fájl üres.”
+hamis
+
+4. Igaz vagy hamis az alábbi állítás? “A robert csoportjába tartozó felhasználók szerkeszthetik a
+README.md fájlt?”
+Igaz
+
+5. Igaz vagy hamis az alábbi állítás? “A fájl egy szövegszerkesztőben akárki által megnyitható.”
+hamis
+
+6. A következő parancs kiadása után a README.md fájl ki számára lesz olvasható?
+Csak a tulajdonos szamara
+
+7. Adott az alábbi jogosultság egy fájlra: rw-rw-rw-. Fejezze ki számmal!
+666
+
+8. Adott az alábbi jogosultság egy fájlra: rw-r-----. Fejezze ki számmal!
+640
+
+9. Adott az alábbi jogosultság egy fájlra: rw-r-xr-x. Fejezze ki számmal!
+655
+
+10. Adott az alábbi jogosultság egy fájlra: rwxrwxrwx. Fejezze ki számmal!
+777
+
+11. Adott az alábbi jogosultság egy fájlra: rwx------. Fejezze ki számmal!
+700
+
+12. Adott az alábbi jogosultság egy fájlra: rwxr--r--. Fejezze ki számmal!
+744
+
+13. Az alábbi szám egy fájl jogosultság halmazt fejez ki: 644. Ki tudja a fájlt olvasni?
+tulajdonos, csoport tagok, mindenki mas
+
+14. Az alábbi szám egy fájl jogosultság halmazt fejez ki: 644. Ki tudja a fájlt olvasni?
+tulajdonos, csoport tagok, mindenki mas
+
+15. Az alábbi szám egy fájl jogosultság halmazt fejez ki: 711. Futtatható-e a fájl egy tetszőleges
+felhasználó számára?
+igen
+
+16. Az alábbi szám egy fájl jogosultság halmazt fejez ki: 640. Tudja-e a fájlt írni a birtokos csoport
+tagja?
+nem
+
+17. Az alábbi szám egy fájl jogosultság halmazt fejez ki: 600. Ki látja a fájlt a rendszeren?
+csak a tulajdonos
+
+18. Az alábbi szám egy mappa jogosultság halmazt fejez ki: 600. Ki léphet be a mappába?
+senki
+
+19. Az alábbi szám egy mappa jogosultság halmazt fejez ki: 660. Ki látja a fájlokat a mappában?
+a tulajdonos és a csoport tagok
+
+20. Az alábbi szám egy mappa jogosultság halmazt fejez ki: 744. Ki hozhat létre fájlt a mappában?
+csak a tulajdonos
+21. Az alábbi szám egy mappa jogosultság halmazt fejez ki: 555. Ki törölhet fájlt a mappában?
+mindenki
