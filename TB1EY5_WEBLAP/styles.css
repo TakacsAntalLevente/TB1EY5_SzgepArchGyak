@@ -45,8 +45,136 @@ h1:hover{
 }
 
 .containermenu {
+    
     display: flex;
     background-color: rgb(117, 117, 255);
+}
+
+.progalapContainer {
+    display: flex;
+    align-items: left;
+}
+
+.kepekContainer {
+    display: block;
+    align-items: right;
+    
+}
+.kepekContainerA {
+    display: block;
+    align-items: right;
+}
+
+
+.kepek1{
+    margin: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 250px;
+    width: 350px;
+    
+    background-image: url('kepek/archpc1.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 5px 10px grey;
+}
+
+.kepek2 {
+    margin: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 250px;
+    width: 350px;
+    
+    background-image: url('kepek/archpc2.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 5px 10px grey;
+}
+
+.kepek3 {
+    margin: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 250px;
+    width: 350px;
+    
+    background-image: url('kepek/archpc3.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 5px 10px grey;
+}
+
+.kepek4{
+    margin: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 250px;
+    width: 350px;
+    
+    background-image: url('kepek/archpc4.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 5px 10px grey;
+}
+
+.contentText1 {
+    margin: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 500px;
+    width: 650px;
+    background-color: #a19db5;
+    border-radius: 20px;
+    box-shadow: 5px 10px grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contentText2 {
+    margin: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 500px;
+    width: 650px;
+    background-color: #a19db5;
+    border-radius: 20px;
+    box-shadow: 5px 10px grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contentText3 {
+    margin: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 500px;
+    width: 650px;
+    background-color: #a19db5;
+    border-radius: 20px;
+    box-shadow: 5px 10px grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+.p{
+    font-style: italic;
+    font-weight: bolder;
 }
 
 .textbox {
@@ -112,7 +240,7 @@ h1:hover{
 .footer {
     color: white;
     text-align: center;
-    height: 100px;
+    height: 90px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     background-color: #302E3B;
@@ -132,7 +260,7 @@ h1:hover{
     justify-content: center;
     align-items: center;
     z-index: 1000; 
-    animation: fadeOut 4s ease-out forwards; 
+    animation: fadeOut 2s ease-out forwards; 
 }
 
 .loader {

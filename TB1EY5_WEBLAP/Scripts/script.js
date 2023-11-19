@@ -3,5 +3,5 @@ document.addEventListener("DOMContentLoaded", function () {
     setTimeout(function() {
         var loaderWrapper = document.querySelector(".loader-wrapper");
         loaderWrapper.style.display = "none";
-    }, 5000); // 2000 milliszekundum = 2 másodperc
+    }, 2000); // 2000 milliszekundum = 2 másodperc
 });
