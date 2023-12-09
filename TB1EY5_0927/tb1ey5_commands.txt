@@ -1,0 +1,14 @@
+a) passwd
+b) whatis -r .
+c) pwd
+d) ps aux
+e) last -n 5
+f) who
+g) who
+h) w
+i) Teljes név: getent passwd <felhasználó neve> | cut -d: -f5
+j) write <felhasználó neve>
+k) man date
+l) date +%Y
+m) ^C (ctrl + C billentyűk lenyomása)
+n) clear
