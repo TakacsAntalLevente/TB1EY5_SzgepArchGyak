@@ -1,0 +1,24 @@
+a) mkdir -p tb1ey5/bokor/{banan,mogyoro,barack}; mkdir -p tb1ey5/fa/korte; mkdir -p tb1ey5/land/{szeder,kokus}
+b) cp -r tb1ey5/land/szeder/ tb1ey5/fa/; cp -r tb1ey5/bokor/banan/ tb1ey5/fa/
+c) mv tb1ey5/bokor/barack/ tb1ey5/fa/; mv tb1ey5/land/kokus/ tb1ey5/fa/
+d) rm -r tb1ey5/land/; mkdir -p tb1ey5/tree; touch tb1ey5/bokor/banan/leiras.txt tb1ey5/tree/felsorolas.txt
+e) cat > tb1ey5/bokor/banan/leiras.txt 
+A barack egy gyümölcs
+A barack ehető.
+A barack finom.
+^D
+cat > tb1ey5/tree/felsorolas.txt 
+Adamcsik Bendegúz
+Asztalos Ádám
+Takács Antal Levente
+Balogh Botond
+Balogh Dominik
+Balogh Márk
+Balogh Martin
+Bán Tamás József
+^D
+f) ls -R tb1ey5
+g) cd /; find / -type f -name '?e*'
+h) chmod a+r tb1ey5/tree/felsorolas.txt
+i) du -sh tb1ey5
+j) sort tb1ey5/tree/felsorolas.txt
