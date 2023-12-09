@@ -1,0 +1,27 @@
+1. pwd
+2. cd /
+3. cd ~
+4. cd /root
+5. cd /etc
+6. cd ..
+7. ls
+8. ls -l /etc; ls -l /var/log
+9. cd ~; mkdir Teszt
+10. mkdir T1 T2
+11. !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+12. mkdir -p Unix/Linux/Debian
+13. mv Unix/Linux/Debian Unix/Linux/Deb
+14. mv Unix/Linux/Deb T1/
+15. rm -r T1
+16. rm -r Teszt
+17. ls
+18. ls -l /etc
+19. ls -l /etc/*.conf
+20. ls -ld /etc/p*
+21. ls -ld /etc/*f
+22. ls -ld /etc/p?s*d
+23. ls -a /home
+24. ls -d /etc/?[an]*
+25. ls -d /etc/[^a^n]*
+26. tree /
+27. mc
