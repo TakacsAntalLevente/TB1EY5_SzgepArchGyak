@@ -1,0 +1,13 @@
+1. mkdir -p SzgepGyak/Proba/Test/Unix; mkdir -p SzgepGyak/Proba/Linux; mkdir -p SzgepGyak/Check/Tmp
+2. cd /etc; ls -d */
+3. cp /etc/passwd SzgepGyak/Proba/
+4. cp /etc/shadow SzgepGyak/Proba/Test/
+5. cp /etc/*.conf SzgepGyak/Proba/Linux/
+6. cp /etc/?a?s*d SzgepGyak/Check/
+7. mv SzgepGyak/Proba/Test/* SzgepGyak/Proba/Linux/
+8. touch Adatok.txt
+9. rm -r SzgepGyak/Proba/Linux/*
+10. rm -r SzgepGyak/Proba/
+11. cat /etc/passwd
+12. less /etc/passwd
+13. file /bin/bash /etc/passwd /var/log/syslog
