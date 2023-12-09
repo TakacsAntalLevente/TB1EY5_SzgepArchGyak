@@ -25,10 +25,11 @@ done
 echo "legkisebb: $min, hanyadik elem: $mindex"
 echo "legnagyobb: $max, hanyadik elem: $mxindex"
 
-sum=0
-
-for ((i=0;i<num;i++)); do
-sum=$((sum + array[i]))
+declare -i sum=0
+for i in $(seq 0 $((n - 1))); do
+	sum=$((sum + arr[i]))
 done
+echo "Összeg: $sum"
 
-avarage=$(echo "scale=2; "
+avg=$((sum / n))
+echo "Átlag: $avg"
